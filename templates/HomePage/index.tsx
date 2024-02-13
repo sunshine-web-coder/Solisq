@@ -25,12 +25,12 @@ const HomePage = () => {
       {/* <UnkSect /> */}
       <AboutUs />
       <Statistics />
-      <Posts
+      {/* <Posts
         className="section"
         title="Stay Connected"
         info="Be in the loop with the latest news and update from the development team & community."
         posts={posts}
-      />
+      /> */}
       <Reviews reviews={reviews} />
       {/* <JoinCommunity title="Want to get involved?" /> */}
     </Layout>
