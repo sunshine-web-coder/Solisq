@@ -34,7 +34,7 @@ const JoinCommunity = ({ title }: JoinCommunityProps) => (
                 </div>
                 <a
                     className={cn("button", styles.button)}
-                    href="https://t.me/vincechain"
+                    href="https://t.me/solisqorg"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

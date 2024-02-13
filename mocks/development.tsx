@@ -79,7 +79,7 @@ export const developmentTechnology = [
             "Solisq is open to ideas from the community. Become an active contributor and help the network grow and improve its services.",
         image: "/images/development-pic-1.png",
         color: "#EBB15B",
-        slug: "https://t.me/vincechain",
+        slug: "https://t.me/solisqorg",
         slugLabel: "Learn More"
     },
 ];

@@ -5,7 +5,7 @@ export const headerNavigation = [
   },
   // {
   //   title: "Community",
-  //   url: "https://t.me/vincechain",
+  //   url: "https://t.me/solisqorg",
   //   external: true,
   // },
   {
@@ -84,15 +84,15 @@ export const footerNavigation = [
       //   title: "Blog",
       // },
       {
-        slug: "https://t.me/vincechain",
+        slug: "https://t.me/solisqorg",
         title: "Telegram",
       },
+      // {
+      //   slug: "https://github.com/vince-chain",
+      //   title: "GitHub",
+      // },
       {
-        slug: "https://github.com/vince-chain",
-        title: "GitHub",
-      },
-      {
-        slug: "https://twitter.com/vincechain",
+        slug: "https://x.com/solisqorg/",
         title: "Twitter",
       },
       {
@@ -103,10 +103,10 @@ export const footerNavigation = [
         slug: "https://instagram.com/vincechain?utm_medium=copy_link",
         title: "Instagram",
       },
-      {
-        slug: "http://www.linkedin.com/company/vince-chain",
-        title: "LinkedIn",
-      },
+      // {
+      //   slug: "http://www.linkedin.com/company/vince-chain",
+      //   title: "LinkedIn",
+      // },
     ],
   },
 ];
