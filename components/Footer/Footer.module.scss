@@ -1,0 +1,86 @@
+// .disableLink {
+//   pointer-events: none;
+//   cursor: pointer;
+// }
+.social {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  a {
+    button {
+      color: #ffffff;
+      font-size: 20px;
+      transition: color 0.2s;
+      //   border: 2px solid #fdb820;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      background-color: #222325;
+
+      &:hover {
+        color: #d69813;
+        border: 2px solid #d69813;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    margin-top: 20px;
+  }
+}
+
+.d_flex {
+  .fLogo {
+    img {
+    width: 200px;
+      // height: 35px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+    gap: 50px;
+
+    .fLogo {
+      position: relative;
+      left: -10px;
+
+      img {
+        width: 190px;
+        // height: 40px;
+      }
+    }
+  }
+  .menu2 {
+    margin-left: 100px;
+    .fRLinks {
+      width: 200px;
+
+      ul {
+        li {
+          margin-top: 10px;
+          a {
+            color: rgb(202, 202, 202);
+            &:hover {
+              color: rgb(212, 203, 184);
+            }
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      margin-left: 0px;
+    }
+    @media screen and (max-width: 1023px) {
+      margin-top: 50px;
+    }
+    @media screen and (max-width: 767px) {
+      margin-top: 0;
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+}
