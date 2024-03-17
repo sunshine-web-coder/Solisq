@@ -13,7 +13,7 @@ type AboutUsProps = {};
 const AboutUs = ({}: AboutUsProps) => (
   <div className={cn("section", styles.section)}>
     <div className={cn("container", styles.container)}>
-      <AnimationOnScroll animateIn="fadeInDown">
+      {/* <AnimationOnScroll animateIn="fadeInDown">
         <div className={styles.item}>
           <div className={styles.wrap}>
             <div className={styles.content}>
@@ -35,7 +35,7 @@ const AboutUs = ({}: AboutUsProps) => (
             <img src="/images/about-pic-1.png" />
           </div>
         </div>
-      </AnimationOnScroll>
+      </AnimationOnScroll> */}
 
       <AnimationOnScroll animateIn="fadeInDown">
         <div className={`${styles.item} ${styles.f_reverse}`}>
