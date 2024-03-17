@@ -6,7 +6,7 @@ export const development = [
         image: "/images/blithe.png",
         color: "#6F5BEB",
         delay: 450,
-        url: "https://www.blithewallet.com/",
+        url: "https://blithewallet.solisq.com/",
         label: "Use Wallet"
     },
     {
@@ -16,7 +16,7 @@ export const development = [
         image: "/images/qroni.png",
         color: "#89EB5B",
         delay: 300,
-        url: "https://qroni.org/",
+        url: "https://qroni.solisq.com/",
         label: "Explore Qroni Swap"
     },
     {
@@ -26,16 +26,17 @@ export const development = [
         image: "/images/artluxx.png",
         color: "#EBB15B",
         delay: 150,
-        url: "https://artlux.io/",
+        url: "https://artlux.solisq.com/",
         label: "Explore Artlux"
     },
     {
-        title: "Solisq Pay",
+        title: "Blokramp",
         content:
             "Decentralized payment service featuring crypto/fiat onramp powered by Solisq. Send and receive payments faster than the money services you know.",
         image: "/images/logo-solisq-box.png",
         color: "#6F5BEB",
-        url: "",
+        url: "https://blokramp.solisq.com/",
+        label: "Blokramp"
     },
 ];
 
