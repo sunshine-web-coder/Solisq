@@ -95,14 +95,14 @@ export const footerNavigation = [
         slug: "https://x.com/solisqorg/",
         title: "Twitter",
       },
-      {
-        slug: "https://www.youtube.com/@vincechain5256",
-        title: "YouTube",
-      },
-      {
-        slug: "https://instagram.com/vincechain?utm_medium=copy_link",
-        title: "Instagram",
-      },
+      // {
+      //   slug: "https://www.youtube.com/@vincechain5256",
+      //   title: "YouTube",
+      // },
+      // {
+      //   slug: "https://instagram.com/vincechain?utm_medium=copy_link",
+      //   title: "Instagram",
+      // },
       // {
       //   slug: "http://www.linkedin.com/company/vince-chain",
       //   title: "LinkedIn",

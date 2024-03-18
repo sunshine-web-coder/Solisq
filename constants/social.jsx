@@ -10,10 +10,10 @@ export const socialList = [
         icon: <FaTelegramPlane />,
         slug: "https://t.me/solisqorg",
     },
-    {
-        icon: <BsInstagram />,
-        slug: "https://instagram.com/vincechain?utm_medium=copy_link",
-    },
+    // {
+    //     icon: <BsInstagram />,
+    //     slug: "https://instagram.com/vincechain?utm_medium=copy_link",
+    // },
     // {
     //     icon: <FaLinkedinIn />,
     //     slug: "http://www.linkedin.com/company/vince-chain",
@@ -22,8 +22,8 @@ export const socialList = [
     //     icon: <FaGithub />,
     //     slug: "https://github.com/vince-chain",
     // },
-    {
-        icon: <BsYoutube />,
-        slug: "https://www.youtube.com/@vincechain5256",
-    },
+    // {
+    //     icon: <BsYoutube />,
+    //     slug: "https://www.youtube.com/@vincechain5256",
+    // },
 ]
