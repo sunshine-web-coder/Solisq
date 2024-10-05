@@ -56,7 +56,7 @@ const Main = ({ scrollToRef }: MainProps) => (
                 <div className={styles.heroLink}>
                     <a className={cn("button", styles2.tHeroLink)} href="/build">Start Building</a>
                 </div>
-            </div>
+            </div> 
             <div className={styles.images}>
                 <div className={styles.image}>
                     <Image

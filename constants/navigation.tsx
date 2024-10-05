@@ -58,7 +58,7 @@ export const footerNavigation = [
         title: "Ecosystem",
       },
       {
-        slug: "https://www.blithewallet.com/",
+        slug: "https://blithewallet.solisq.com/",
         title: "Blithe Wallet",
       },
     ],

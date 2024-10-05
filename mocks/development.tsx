@@ -9,35 +9,35 @@ export const development = [
         url: "https://blithewallet.solisq.com/",
         label: "Use Wallet"
     },
-    {
-        title: "Qroni Swap",
-        content:
-            "A robust ecosystem featuring multi-chain crypto services, including DEX, liquidity staking, NFT ticketing & trading, onramp, and yield farming.",
-        image: "/images/qroni.png",
-        color: "#89EB5B",
-        delay: 300,
-        url: "https://qroni.solisq.com/",
-        label: "Explore Qroni Swap"
-    },
-    {
-        title: "Artlux",
-        content:
-            "Create, Sell And Collect Rare Digital Arts On Artlux NFT Marketplace. Play And Earn With Your NFTs On The Artlux NFT Lottery Platform.",
-        image: "/images/artluxx.png",
-        color: "#EBB15B",
-        delay: 150,
-        url: "https://artlux.solisq.com/",
-        label: "Explore Artlux"
-    },
-    {
-        title: "Blokramp",
-        content:
-            "Decentralized payment service featuring crypto/fiat onramp powered by Solisq. Send and receive payments faster than the money services you know.",
-        image: "/images/logo-solisq-box.png",
-        color: "#6F5BEB",
-        url: "https://blokramp.solisq.com/",
-        label: "Blokramp"
-    },
+    // {
+    //     title: "Qroni Swap",
+    //     content:
+    //         "A robust ecosystem featuring multi-chain crypto services, including DEX, liquidity staking, NFT ticketing & trading, onramp, and yield farming.",
+    //     image: "/images/qroni.png",
+    //     color: "#89EB5B",
+    //     delay: 300,
+    //     url: "https://qroni.solisq.com/",
+    //     label: "Explore Qroni Swap"
+    // },
+    // {
+    //     title: "Artlux",
+    //     content:
+    //         "Create, Sell And Collect Rare Digital Arts On Artlux NFT Marketplace. Play And Earn With Your NFTs On The Artlux NFT Lottery Platform.",
+    //     image: "/images/artluxx.png",
+    //     color: "#EBB15B",
+    //     delay: 150,
+    //     url: "https://artlux.solisq.com/",
+    //     label: "Explore Artlux"
+    // },
+    // {
+    //     title: "Blokramp",
+    //     content:
+    //         "Decentralized payment service featuring crypto/fiat onramp powered by Solisq. Send and receive payments faster than the money services you know.",
+    //     image: "/images/logo-solisq-box.png",
+    //     color: "#6F5BEB",
+    //     url: "https://blokramp.solisq.com/",
+    //     label: "Blokramp"
+    // },
 ];
 
 export const developmentTechnology = [
