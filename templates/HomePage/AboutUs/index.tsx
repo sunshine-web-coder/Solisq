@@ -50,7 +50,7 @@ const AboutUs = ({}: AboutUsProps) => (
               <a href="https://vincechain.gitbook.io/vince-chain-documentation/" className={cn("button", styles.button)} style={{marginRight: 15}}>
                 <span>Learn more</span>
               </a>
-              <a href="" className={cn("button", styles.button)}>
+              <a href="https://pancakeswap.finance/swap?outputCurrency=BNB&inputCurrency=0xe063a7d90732Db5B5BDFb92f6E17Fe805c655781" className={cn("button", styles.button)} rel="noreferrer" target="_blank">
                 <span>Buy SLQ</span>
               </a>
             </div>

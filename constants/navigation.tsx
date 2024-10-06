@@ -53,10 +53,10 @@ export const footerNavigation = [
         title: "Help Center",
         toggle: "yes"
       },
-      {
-        slug: "/vince-ecosystem",
-        title: "Ecosystem",
-      },
+      // {
+      //   slug: "/vince-ecosystem",
+      //   title: "Ecosystem",
+      // },
       {
         slug: "https://blithewallet.solisq.com/",
         title: "Blithe Wallet",
