@@ -34,7 +34,7 @@ const Header = ({}: HeaderProps) => {
                 data-scroll-lock-fill-gap
             >
                 <Logo className={styles.logo} />
-                <Menu
+                {/* <Menu
                     navigation={headerNavigation}
                     socials={socials}
                     onClick={() => setOpen(!open)}
@@ -46,7 +46,7 @@ const Header = ({}: HeaderProps) => {
                     rel="noopener noreferrer"
                 >
                     <span>launch app</span>
-                </a>
+                </a> */}
             </div>
         </header>
     );

@@ -7,6 +7,7 @@ const Development = () => {
   return (
     <div className={cn("section", styles.section)}>
       <div className={cn("container-wide", styles.container)}>
+        <h2 className={cn("h2", styles.title)} style={{textAlign: "center"}}>Swap</h2>
         <div className={styles2.inner_vince_ecosystem}>
           <RubicWidget />
         </div>
