@@ -53,9 +53,9 @@ const Main = ({ scrollToRef }: MainProps) => (
                 <div className={styles.info}>
                     Build and foster your decentralized applications and smart contracts with easy-to-use developer tools.
                 </div>
-                <div className={styles.heroLink}>
+                {/* <div className={styles.heroLink}>
                     <a className={cn("button", styles2.tHeroLink)} href="/build">Start Building</a>
-                </div>
+                </div> */}
             </div> 
             <div className={styles.images}>
                 <div className={styles.image}>
