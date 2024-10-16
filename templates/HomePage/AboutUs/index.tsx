@@ -41,18 +41,47 @@ const AboutUs = ({}: AboutUsProps) => (
         <div className={`${styles.item} ${styles.f_reverse}`}>
           <div className={styles.wrap}>
             <div className={styles.content}>
-              <h2>Introducing Solisq Coin (SLQ)</h2>
-              <p>
-              Explore Solisq with its unique coin, $SLQ. Build your dApp, scale your services, and process transactions exclusively on Solisq using $SLQ.
-              </p>
+              <h2>How Solisq Works</h2>
+              <p>Join Solisq or Hire Your Next Talent in Four Simple Steps </p>
+              <ul className="how-solisq-work-list">
+                <li>
+                  Step 1: <b>Identify Your Need on Solisq:</b> Are you hiring or
+                  freelancing?
+                </li>
+                <li>
+                  Step 2: <b>Sign Up With Your Email:</b> No rigorous KYC
+                  needed. Just connect your Gmail/email and fill out your buyer
+                  or sellers details using the prompts provided
+                </li>
+                <li>
+                  Step 3: <b>Explore AI Services and Freelancers:</b> Browse and
+                  choose your preferred AI services and freelancers across
+                  multiple categories
+                </li>
+                <li>
+                  Step 4: <b>Collaborate Securely Within the Platform:</b>{" "}
+                  Schedule interviews/meetings, hire talents, track project
+                  progress, create and send invoice, and pay using BNB/Solisq
+                  tokens.
+                </li>
+              </ul>
             </div>
             <div className={styles.line}>
-              <a href="https://vincechain.gitbook.io/vince-chain-documentation/" className={cn("button", styles.button)} style={{marginRight: 15}}>
-                <span>Learn more</span>
+              <a
+                href=""
+                className={cn("button", styles.button)}
+                style={{ marginRight: 15 }}
+              >
+                <span>Get Started Now</span>
               </a>
-              <a href="https://pancakeswap.finance/swap?outputCurrency=BNB&inputCurrency=0xe063a7d90732Db5B5BDFb92f6E17Fe805c655781" className={cn("button", styles.button)} rel="noreferrer" target="_blank">
+              {/* <a
+                href="https://pancakeswap.finance/swap?outputCurrency=BNB&inputCurrency=0xe063a7d90732Db5B5BDFb92f6E17Fe805c655781"
+                className={cn("button", styles.button)}
+                rel="noreferrer"
+                target="_blank"
+              >
                 <span>Buy SLQ</span>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className={styles.preview}>
@@ -65,18 +94,28 @@ const AboutUs = ({}: AboutUsProps) => (
         <div className={styles.item}>
           <div className={styles.wrap}>
             <div className={styles.content}>
-              <h2>Ready to Build a Decentralized Internet?</h2>
-              <p>
-              Solisq is everything you need and more to build and shape a decentralized future of internet.
-              </p>
+              <h2>AI Services to Explore on Solisq</h2>
+              <ul className="how-solisq-work-list">
+                <li>- Programming & Tech</li>
+                <li>- Graphics Design</li>
+                <li>- UI/UX Design</li>
+                <li>- Digital Marketing</li>
+                <li>- Writing & Translation</li>
+                <li>- Video & Animation</li>
+                <li>- AI Chatbot / Customer Support</li>
+                <li>- Music & Audio</li>
+                <li>- Business Management</li>
+                <li>- Project Management</li>
+                <li>- Marketing Automation</li>
+              </ul>
             </div>
             <div className={styles.line}>
               <a
-                href="/build"
+                href="/"
                 className={cn("button", styles.button)}
                 style={{ marginRight: 20 }}
               >
-                <span>Get Started</span>
+                <span>Learn More</span>
               </a>
             </div>
           </div>
@@ -87,27 +126,73 @@ const AboutUs = ({}: AboutUsProps) => (
       </AnimationOnScroll>
 
       <AnimationOnScroll animateIn="fadeInDown">
-        <div className={`${styles.item} ${styles.f_reverse}`}>
+        <div className={styles.item}>
+          <div className={styles.preview}>
+            <img src="/images/faq.png" />
+          </div>
           <div className={styles.wrap}>
             <div className={styles.content}>
-              <h2>
-                There is a community <br />
-                for you.
-              </h2>
+              <h2>What Is the Solisq Token?</h2>
               <p>
-                Connect, learn more, and contribute to the future of Solisq through the community. 
+                Explore and interact on Solisq AI freelance marketplace using
+                the Solisq token (SLQ). The BNB-powered token will be your
+                gateway to buying or selling freelance AI services on Solisq.
+                Designed to cut through payment restrictions and dilemmas in
+                countries where remote work payments are a problem.
               </p>
             </div>
-            <div className={styles.social}>
+            <div className={styles.line}>
+              <a
+                href="/"
+                className={cn("button", styles.button)}
+                style={{ marginRight: 20 }}
+              >
+                <span>Learn More</span>
+              </a>
+              <a
+                href="https://pancakeswap.finance/swap?outputCurrency=BNB&inputCurrency=0xe063a7d90732Db5B5BDFb92f6E17Fe805c655781"
+                className={cn("button", styles.button)}
+                style={{ marginRight: 20 }}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <span>Buy $SLQ</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </AnimationOnScroll>
+
+      <AnimationOnScroll animateIn="fadeInDown">
+        <div className={`${styles.item} ${styles.f_reverse}`}>
+          <div className={styles.preview}>
+            <img src="/images/about-pic-4.png" />
+          </div>
+          <div className={styles.wrap}>
+            <div className={`content-n ${styles.content}`}>
+              <h2>
+                Ready to Transform Your Business with AI and Web3-Powered
+                Freelancers?
+              </h2>
+            </div>
+            <div className={styles.line}>
+              <a
+                href="https://t.me/solisqorg"
+                className={cn("button", styles.button)}
+                style={{ marginRight: 20 }}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <span>Join Solisq Now</span>
+              </a>
+            </div>
+            {/* <div className={styles.social}>
               {socialList.map((item, i) => (
                 <a key={i} target="_blank" rel="noreferrer" href={item.slug}>
                   <button>{item.icon}</button>
                 </a>
               ))}
-            </div>
-          </div>
-          <div className={styles.preview}>
-            <img src="/images/about-pic-4.png" />
+            </div> */}
           </div>
         </div>
       </AnimationOnScroll>

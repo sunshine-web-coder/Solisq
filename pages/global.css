@@ -1,0 +1,33 @@
+.mainInfo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.heroLinkMain, .solutionLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.solutionLinks {
+    padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1179px) {
+    .solutionLinks {
+        padding-bottom: 0px;
+    }
+}
+
+.how-solisq-work-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.content-n h2{
+    font-size: 45px !important;
+    line-height: 55px !important;
+}

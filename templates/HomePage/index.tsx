@@ -24,7 +24,7 @@ const HomePage = () => {
       <Development />
       {/* <UnkSect /> */}
       <AboutUs />
-      <Statistics />
+      {/* <Statistics /> */}
       {/* <Posts
         className="section"
         title="Stay Connected"

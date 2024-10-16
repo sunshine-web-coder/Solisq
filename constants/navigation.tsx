@@ -24,27 +24,27 @@ export const headerNavigation = [
 ];
 
 export const footerNavigation = [
-  {
-    title: "Developers",
-    list: [
-      {
-        slug: "https://vincescan.com",
-        title: "Explorer",
-      },
-      {
-        slug: "mailto:support@solisq.com",
-        title: "Tech Support",
-      },
-      {
-        slug: "https://vincechain.gitbook.io/vince-chain-documentation/",
-        title: "Dev Documentation",
-      },
-      {
-        slug: "javascript:void(0)",
-        title: "Bug Bounty (coming soon)",
-      },
-    ],
-  },
+  // {
+  //   title: "Developers",
+  //   list: [
+  //     {
+  //       slug: "https://vincescan.com",
+  //       title: "Explorer",
+  //     },
+  //     {
+  //       slug: "mailto:support@solisq.com",
+  //       title: "Tech Support",
+  //     },
+  //     {
+  //       slug: "https://vincechain.gitbook.io/vince-chain-documentation/",
+  //       title: "Dev Documentation",
+  //     },
+  //     {
+  //       slug: "javascript:void(0)",
+  //       title: "Bug Bounty (coming soon)",
+  //     },
+  //   ],
+  // },
   {
     title: "Individuals",
     list: [
@@ -63,19 +63,19 @@ export const footerNavigation = [
       },
     ],
   },
-  {
-    title: "Press Kits",
-    list: [
-      {
-        slug: "/privacy-policy",
-        title: "Privacy Policy",
-      },
-      {
-        slug: "/terms-of-use",
-        title: "Terms of Use",
-      },
-    ],
-  },
+  // {
+  //   title: "Press Kits",
+  //   list: [
+  //     {
+  //       slug: "/privacy-policy",
+  //       title: "Privacy Policy",
+  //     },
+  //     {
+  //       slug: "/terms-of-use",
+  //       title: "Terms of Use",
+  //     },
+  //   ],
+  // },
   {
     title: "Community",
     list: [
