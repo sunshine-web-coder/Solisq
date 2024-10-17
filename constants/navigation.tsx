@@ -61,6 +61,10 @@ export const footerNavigation = [
         slug: "https://blithewallet.solisq.com/",
         title: "Blithe Wallet",
       },
+      {
+        slug: "https://solisq.gitbook.io/solisq-documentation",
+        title: "Whitepaper",
+      },
     ],
   },
   // {

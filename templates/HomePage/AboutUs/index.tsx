@@ -111,7 +111,9 @@ const AboutUs = ({}: AboutUsProps) => (
             </div>
             <div className={styles.line}>
               <a
-                href="/"
+                href="https://solisq.gitbook.io/solisq-documentation"
+                rel="noreferrer"
+                target="_blank"
                 className={cn("button", styles.button)}
                 style={{ marginRight: 20 }}
               >
@@ -143,7 +145,9 @@ const AboutUs = ({}: AboutUsProps) => (
             </div>
             <div className={styles.line}>
               <a
-                href="/"
+                href="https://solisq.gitbook.io/solisq-documentation"
+                rel="noreferrer"
+                target="_blank"
                 className={cn("button", styles.button)}
                 style={{ marginRight: 20 }}
               >
