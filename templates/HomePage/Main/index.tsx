@@ -54,10 +54,20 @@ const Main = ({ scrollToRef }: MainProps) => (
           Design, and More. Easy Sign-Up, Backed by Web3.
         </div>
         <div className="heroLinkMain">
-          <a className={cn("button", styles2.tHeroLink)} href="/">
+          <a
+            className={cn("button", styles2.tHeroLink)}
+            href="https://freelance.solisq.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Hire Now
           </a>
-          <a className={cn("button", styles2.tHeroLink)} href="/">
+          <a
+            className={cn("button", styles2.tHeroLink)}
+            href="https://freelance.solisq.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Become a Seller
           </a>
         </div>

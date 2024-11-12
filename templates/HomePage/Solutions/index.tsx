@@ -73,7 +73,7 @@ const Solutions = ({ scrollToRef }: SolutionsProps) => {
           ))}
         </div>
         <div className="solutionLinks">
-          <a className={cn("button", styles2.tHeroLink)} href="/" rel="noreferrer"
+          <a className={cn("button", styles2.tHeroLink)} href="https://freelance.solisq.com/" rel="noreferrer"
                 target="_blank">
             Find Freelancers Now
           </a>

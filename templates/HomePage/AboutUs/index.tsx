@@ -68,9 +68,11 @@ const AboutUs = ({}: AboutUsProps) => (
             </div>
             <div className={styles.line}>
               <a
-                href=""
+                href="https://freelance.solisq.com/"
                 className={cn("button", styles.button)}
                 style={{ marginRight: 15 }}
+                rel="noreferrer"
+                target="_blank"
               >
                 <span>Get Started Now</span>
               </a>
