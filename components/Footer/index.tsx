@@ -78,7 +78,7 @@ const Footer = ({}: FooterProps) => {
           </div> */}
           <div className={styles.row}>
             <div className={styles.copyright}>
-              © 2024 Solisq. All rights reserved. a product of vangold
+              © 2025 Solisq. All rights reserved. a product of vangold
             </div>
             {/* <div className={styles.documents}>
           {documents.map((document, index) => (
