@@ -57,10 +57,10 @@ export const footerNavigation = [
       //   slug: "/vince-ecosystem",
       //   title: "Ecosystem",
       // },
-      {
-        slug: "https://blithewallet.solisq.com/",
-        title: "Blithe Wallet",
-      },
+      // {
+      //   slug: "https://blithewallet.solisq.com/",
+      //   title: "Blithe Wallet",
+      // },
       {
         slug: "https://solisq.gitbook.io/solisq-documentation",
         title: "Whitepaper",
