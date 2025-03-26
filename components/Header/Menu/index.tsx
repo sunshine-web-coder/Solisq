@@ -178,16 +178,6 @@ const Menu = ({ navigation, socials, onClick }: MenuProps) => {
             )
           : null}
       </div>
-      <Script id="freshdesk">
-        {`
-          window.fwSettings={
-            'widget_id':150000003011,
-            };
-            !function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}()
-            function openWidget() {FreshworksWidget('open', 'ticketForm');}
-        `}
-      </Script>
-      <Script type='text/javascript' src='https://widget.freshworks.com/widgets/150000003011.js' async defer></Script> 
     </>
   );
 };
