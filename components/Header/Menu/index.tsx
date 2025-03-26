@@ -28,15 +28,6 @@ type MenuProps = {
   onClick: () => void;
 };
 
-declare global {
-  interface Window {
-    FreshworksWidget: any
-  }
-}
-function openWidget() {
-  window.FreshworksWidget('open');
-}
-
 const Menu = ({ navigation, socials, onClick }: MenuProps) => {
   const [visible, setVisible] = useState<boolean>(false);
   const [loaded, setLoaded] = useState<boolean>(false);
@@ -125,9 +116,7 @@ const Menu = ({ navigation, socials, onClick }: MenuProps) => {
                             // activeClassName={styles.active}
                             href={link.url}
                             key={index}
-                            onClick={() =>
-                              link.toggle ? openWidget() : () => false
-                            }
+                            onClick={() => {}}
                           >
                             {link.title}
                           </a>
